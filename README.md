@@ -152,6 +152,7 @@ npm start
 ## 💻 Contributors
 
 - [Sarika M N](https://github.com/Sarika362)
+- [Anush A](https://github.com/anush2108)
 
 ## 🌱 Future Enhancements
 
