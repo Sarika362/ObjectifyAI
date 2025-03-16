@@ -1,0 +1,8 @@
+objectifyai/node_modules/
+objectifyai/.gitignore
+
+objectifyai-backend/venv/
+
+venv/
+
+.history/

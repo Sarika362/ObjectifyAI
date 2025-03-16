@@ -1,0 +1,55 @@
+
+/* Global styles for Bootstrap components to match Tailwind aesthetics */
+body {
+    background-color: #111827 !important;; /* Match your dark theme */
+}
+
+/* Background and text colors */
+.bg-dark {
+  background-color: #1e293b !important; /* Tailwind's bg-gray-800 */
+  color: #f8fafc !important; /* Tailwind's text-gray-400 */
+}
+.bg-secondary {
+  background-color: #334155 !important; /* Slightly lighter than bg-gray-800 */
+}
+.text-light {
+  color: #f8fafc !important;
+}
+
+/* Card styles */
+.card {
+  background-color: #1e293b !important;
+  border-radius: 0.75rem !important; /* Tailwind's rounded-xl */
+  padding: 1.5rem !important;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1) !important;
+}
+
+/* Buttons and list-group */
+.list-group-item {
+  background-color: #1e293b !important;
+  border: none !important;
+  color: #f8fafc !important;
+}
+
+/* Icons inside cards */
+.card .icon {
+  width: 48px;
+  height: 48px;
+  color: #22d3ee; /* Tailwind's text-cyan-400 */
+  margin-bottom: 1rem;
+}
+
+/* Custom spacing for sections */
+.py-5 {
+  padding-top: 3rem !important;
+  padding-bottom: 3rem !important;
+}
+
+/* Grid layout for Features section */
+@media (min-width: 768px) {
+  .feature-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+  }
+}

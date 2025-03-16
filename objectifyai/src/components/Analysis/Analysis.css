@@ -1,0 +1,54 @@
+/* General Styles */
+.analysis-section {
+  padding: 2rem 0;
+  background-color: #111827;
+  text-align: center;
+  padding-bottom: 5rem;
+  color: #ffffff;
+}
+
+/* Analysis Container */
+.analysis-container {
+  max-width: 800px;
+  margin: 0 auto;
+  background: rgba(255, 255, 255, 0.05);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(255, 255, 255, 0.1);
+}
+
+/* Analysis Title */
+.analysis-title {
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+  color: #00c8ff;
+}
+
+/* List Styling */
+.analysis-list {
+  list-style: none;
+  padding: 0;
+}
+
+.analysis-item {
+  background: rgba(0, 200, 255, 0.1);
+  color: #ffffff;
+  padding: 10px 15px;
+  margin: 10px;
+  border-radius: 10px;
+  font-size: 1rem;
+  display: inline-block;
+  min-width: 150px;
+}
+
+
+/* No Detection Message */
+.no-detection-message {
+  font-size: 1.2rem;
+  color: #ffbb00;
+  font-weight: bold;
+  background: rgba(255, 187, 0, 0.2);
+  padding: 10px;
+  border-radius: 5px;
+}

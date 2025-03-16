@@ -1,0 +1,79 @@
+/* Hero Section */
+.hero {
+  text-align: center;
+  padding: 5rem 1.5rem;
+  background-color: #111827; /* Dark background */
+  color: #e0f2fe;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-container {
+  max-width: 1000px;
+  height: 90vh;
+  padding: 7rem;
+}
+
+/* Eye Icon */
+.hero-icon {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.eye-icon {
+  font-size: 3rem;
+  color: #06b6d4; /* Cyan color */
+}
+
+/* Title */
+.hero-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  background: linear-gradient(to right, #06b6d4, #3b82f6);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 1rem;
+}
+
+/* Description */
+.hero-text {
+  font-size: 1.2rem;
+  max-width: 600px;
+  margin: 0 auto;
+  color: #d1d5db; /* Light gray */
+}
+
+/* Button */
+.hero-btn {
+  display: inline-block;
+  margin-top: 1.5rem;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  font-weight: bold;
+  background-color: #06b6d4;
+  color: #111827;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: background 0.3s ease-in-out;
+}
+
+.hero-btn:hover {
+  background-color: #3b82f6;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .hero {
+    padding: 1.2rem
+  }
+
+  .hero-title {
+    font-size: 2rem;
+  }
+  
+  .hero-text {
+    font-size: 1rem;
+  }
+}

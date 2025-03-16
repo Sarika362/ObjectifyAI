@@ -1,0 +1,2 @@
+py -3.10 -m venv venv
+set TF_ENABLE_ONEDNN_OPTS=0

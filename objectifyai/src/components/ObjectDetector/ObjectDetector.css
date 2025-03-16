@@ -1,0 +1,113 @@
+#detector{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+  padding: 1rem;
+  background-color: #111827; /* Dark background */
+  padding-top: 3%;
+}
+
+/* Video container */
+.video-container {
+    width: 90%;
+    max-width: 650px;
+    height: 550px;
+    aspect-ratio: 16 / 9;
+    background: black;
+    display: flex;
+    flex-direction: column; /* Stacks children vertically */
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin: 20px auto;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  /* Video feed */
+  .video-feed {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  
+  /* Placeholder message */
+  .placeholder-message {
+    color: #333;
+    background: #fff3cd;
+    padding: 12px;
+    border-radius: 4px;
+    font-size: 1rem;
+    font-weight: 500;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 10px; /* Ensures spacing between message & button */
+  }
+  
+  /* Button container */
+  .button-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  /* Button styling */
+  .control-btn {
+    padding: 10px 20px;
+    font-size: 1rem;
+    transition: all 0.3s ease-in-out;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Start & Stop button styles */
+  .start-btn {
+    background: #007bff;
+    color: white;
+  }
+  
+  .stop-btn {
+    background: #dc3545;
+    color: white;
+  }
+  
+  /* Mobile responsiveness */
+  @media (max-width: 768px) {
+    #detector{
+      margin-top: -3%;
+    }
+    .video-container {
+      width: 95%;
+      aspect-ratio: 4 / 3;
+    }
+  
+    .placeholder-message {
+      font-size: 0.9rem;
+    }
+  
+    .control-btn {
+      font-size: 0.9rem;
+      padding: 8px 16px;
+    }
+  }
+  
+  /* Extra small screens */
+  @media (max-width: 480px) {
+    .video-container {
+      width: 100%;
+      aspect-ratio: 1 / 1;
+    }
+  
+    .placeholder-message {
+      font-size: 0.85rem;
+      padding: 10px;
+    }
+  
+    .control-btn {
+      font-size: 0.8rem;
+      padding: 6px 12px;
+    }
+  }
+  
