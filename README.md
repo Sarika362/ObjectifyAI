@@ -148,13 +148,6 @@ cd frontend
 npm start
 ```
 
-## 🌐 Live Demo
-
-[ObjectifyAI Live Demo 🚀](https://objectify-ai.netlify.app)
-
-## 📜 License
-
-MIT License
 
 ## 💻 Contributors
 
